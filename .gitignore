@@ -1,0 +1,21 @@
+# Maven
+apache-maven-3.9.6/
+maven.zip
+
+# Spring Boot
+backend/target/
+
+# React/Vite
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+*.env
+
+# Logs
+*.log
