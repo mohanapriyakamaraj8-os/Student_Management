@@ -60,7 +60,7 @@ export default function Login({ setPage, onLoginSuccess }) {
     setLoading(true);
     try {
       // 2. Make API call to backend login endpoint
-      const response = await axios.post('http://localhost:8080/api/login', {
+      const response = await axios.post('https://student-management-e066.onrender.com/api/login', {
         email: formData.email,
         password: formData.password
       });

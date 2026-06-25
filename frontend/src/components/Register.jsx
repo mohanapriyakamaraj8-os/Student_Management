@@ -77,7 +77,7 @@ export default function Register({ setPage }) {
     setLoading(true);
     try {
       // 2. Make API call to backend register endpoint
-      const response = await axios.post('http://localhost:8080/api/register', {
+      const response = await axios.post('https://student-management-e066.onrender.com/api/register', {
         name: formData.name,
         email: formData.email,
         password: formData.password
